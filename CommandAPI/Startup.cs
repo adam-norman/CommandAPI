@@ -33,17 +33,10 @@ namespace CommandAPI
 
     {
 
-    routes.MapRoute(
-
-        name: "default",
-
-        template: "{controller}/{action}/{id?}",
-
-        defaults: new { controller = "Home", action = "Index" });
-
- 
-
-});
+    app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+        });
         }
     }
 }
