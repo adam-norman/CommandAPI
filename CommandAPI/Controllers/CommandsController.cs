@@ -13,8 +13,7 @@ namespace CommandAPI.Controllers
         {
             _repository = repo;
         }
-        [HttpGet]
-        //Add the following code
+      
         [HttpGet]
         public ActionResult<IEnumerable<Command>> GetAllCommands()
         {
