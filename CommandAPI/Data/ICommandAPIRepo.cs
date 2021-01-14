@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using CommandAPI.Dtos;
 using CommandAPI.Models;
 namespace CommandAPI.Data
 {
